@@ -103,6 +103,9 @@ main{
     .image img {
         width: 100%; /* Full width for images on small screens */
     }
+    main{
+        justify-content: center;
+    }
 }
 
 @media (max-width: 480px) {
