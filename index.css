@@ -64,7 +64,7 @@ main{
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
     padding: 2%;
-    font-size: 170%;
+    font-size: 160%;
     color: #7c333d;
     line-height: 1.5;
 }
