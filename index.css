@@ -63,10 +63,12 @@ main{
     display: grid;  
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
-    padding: 2%;
+    padding: 20px;
     font-size: 165%;
     color: #7c333d;
     line-height: 1.5;
+    align-items: center; 
+    justify-content: center; 
 }
 .image img{
     width: 90%;
