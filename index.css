@@ -13,7 +13,7 @@ header{
     padding-right: 28%;
     align-items: center;
     justify-content: space-between;
-    font-size: 120%;
+    font-size: 130%;
 }
 header h1{
     color: #E6C5C0;
@@ -61,7 +61,7 @@ main{
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
     padding: 2%;
-    font-size: 150%;
+    font-size: 170%;
     color: #5a2e34;
     line-height: 1.5;
 }
