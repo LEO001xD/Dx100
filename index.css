@@ -10,7 +10,7 @@ header{
     flex-direction: row;
     padding: 1%;
     padding-left: 23%;
-    padding-right: 28%;
+    padding-right: 20%;
     align-items: center;
     justify-content: space-between;
     font-size: 130%;
@@ -22,13 +22,17 @@ header h1{
 .header-list{
     display: flex;
     list-style: none;
-    align-items: center;
+    align-items: center;    
+    gap: 30px;
 }
 .header-list li{
     display: block;
-    padding-left: 60%;
+    padding-left: 0;
     color: #E6C5C0;
-    
+    padding: 10px 20px; 
+    border: 1px solid #E6C5C0; 
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1); 
 }
 .header-list li a{
     text-decoration: none;
@@ -37,19 +41,14 @@ header h1{
 .header-list li a:link {
     color: #E6C5C0;
   }
-  
-
   .header-list li a:visited {
     color: #E6C5C0;
   }
-  
-
   .header-list li a:hover {
     color: #e47662;
     font-size: 150%;
+    
   }
-  
-
   .header-list li a:active {
     color: #b65746;
   }
@@ -74,3 +73,48 @@ main{
     border-radius: 10%;
     box-shadow: 0 4px 8px 0 rgba(243, 58, 73, 0.5), 0 6px 20px 0 rgba(233, 39, 39, 0.19);
 } 
+
+/*  */
+
+@media (max-width: 1024px) {
+    main {
+        margin: 4% 5%; /* Further reduce margins on smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Stack header elements vertically */
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    .header-list {
+        justify-content: center; /* Center links on smaller screens */
+        gap: 20px; /* Reduce gap for smaller screens */
+        padding-right: 3%;
+    }
+
+    .container {
+        grid-template-columns: 1fr; /* Stack image and text vertically */
+        text-align: center; /* Center text in smaller viewports */
+    }
+
+    .image img {
+        width: 100%; /* Full width for images on small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 150%; /* Increase header text size for small screens */
+    }
+
+    .header-list li {
+        padding: 8px 15px; /* Reduce padding for smaller buttons */
+    }
+
+    main {
+        margin: 2% 3%; /* Reduce margin further on very small screens */
+    }
+}
