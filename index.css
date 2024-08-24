@@ -19,9 +19,6 @@ header{
 header h1{
     color: #E6C5C0;
 }
-header h2{
-    display: inline-block;
-}
 .header-list{
     display: flex;
     list-style: none;
