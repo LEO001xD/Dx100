@@ -98,6 +98,7 @@ main{
     .container {
         grid-template-columns: 1fr; /* Stack image and text vertically */
         text-align: center; /* Center text in smaller viewports */
+        padding: 20px;
     }
 
     .image img {
