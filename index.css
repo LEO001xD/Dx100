@@ -90,6 +90,9 @@ main{
         padding-left: 5%;
         padding-right: 5%;
     }
+    header h1{
+        padding-left: 26px;
+    }
     
     .header-list {
         justify-content: center; /* Center links on smaller screens */
