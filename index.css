@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    background-color: whitesmoke;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#card{
+    z-index: 1;
+    display: block;
+    background-image: linear-gradient(to right, white , rgba(170, 173, 179, 0.863));
+    margin: 5% 10%;
+    border-radius: 70px;
+}
+header {
+    font-size: 150%;    
+    padding: 3% 5%;
+    font-weight: 500 ;
+    /* margin-bottom: 2%; */
+}
+#header-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header-list ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+#header-list .start li {
+    padding-right: 20px;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-size: 120%;
+    /* gap: 10px; */
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-top: 7%;
+}
+nav span{
+    padding-bottom: 20%;
+    
+}
+.profile-click, .centificates-click{
+    padding-right: 15%;
+}
+.competitions-click{
+    padding-right: 20%;
+}
+.projects-click{
+    padding-right: 30%;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile {
+    position: relative;
+    /* display: inline-block;  */
+}
+.profile .dot {
+    height: 50vh;
+    width: 50vh;
+    background-color: rgb(46, 46, 46);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 30px 50px 0 rgba(0, 0, 0, 0.616);
+    border-radius: 50%;
+    position: absolute;
+    top: 60%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+}
+
+.profile img {
+    position: relative;
+    z-index: 2; 
+    width: auto;
+    max-height: 65vh; 
+    display: block;
+}
+article{
+    padding: 10% 5% 0 3%;
+}
+article h1{
+    font-weight: 800;
+    font-size: 200%
+}
