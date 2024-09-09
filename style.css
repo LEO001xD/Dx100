@@ -1,18 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/*  */
 body{
     background-color: whitesmoke;
     font-family: "Noto Sans Thai Looped", sans-serif;
     font-weight: 400;
     font-style: normal;
+
+    background-image: url('https://images6.alphacoders.com/131/1316797.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
 }
 #card{
     z-index: 1;
     display: block;
-    background-image: linear-gradient(to right, white , rgba(170, 173, 179, 0.863));
+    background-image: linear-gradient(to right, white , rgba(170, 173, 179, 0.877));
     margin: 5% 10%;
     border-radius: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 50px 0 rgba(0, 0, 0, 0.616);
 }
 header {
     font-size: 150%;    
@@ -34,6 +39,9 @@ header {
 #header-list .start li {
     padding-right: 20px;
 }
+#header-list .end li {
+    padding-right: 20px;
+}
 #container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -45,19 +53,50 @@ nav {
     flex-direction: column;
     align-items: end;
     padding-top: 7%;
+    font-weight: 500    ;
 }
 nav span{
-    padding-bottom: 20%;
-    
+    padding-bottom: 10%;
 }
-.profile-click, .centificates-click{
-    padding-right: 15%;
+.profile-click {
+    /* text-align: center; */
+    padding-right: 17%;
+}
+.profile-click i{
+    font-size: 20px;
+    padding: 20%;
+    border: 2px solid black;
+    border-radius: 30%;
 }
 .competitions-click{
-    padding-right: 20%;
+    /* text-align: center; */
+    padding-right: 15%;
+}
+.competitions-click i{
+    font-size: 20px;
+    padding: 10%;
+    border: 2px solid black;
+    border-radius: 30%;
 }
 .projects-click{
-    padding-right: 30%;
+    /* text-align: center; */
+    padding-right: 26%;
+}
+.projects-click i{
+    font-size: 20px;
+    padding: 14%;
+    border: 2px solid black;
+    border-radius: 30%;
+}
+.certificates-click{
+    /* text-align: center; */
+    padding-right: 0%;
+}
+.certificates-click i{
+    font-size: 20px;
+    padding: 10%;
+    border: 2px solid black;
+    border-radius: 30%;
 }
 main{
     display: flex;
@@ -75,7 +114,7 @@ main{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 30px 50px 0 rgba(0, 0, 0, 0.616);
     border-radius: 50%;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 46%;
     transform: translate(-50%, -50%);
     z-index: 1; 
@@ -89,9 +128,28 @@ main{
     display: block;
 }
 article{
-    padding: 10% 5% 0 3%;
+    padding: 0% 5% 5% 3%;
 }
 article h1{
     font-weight: 800;
     font-size: 200%
+}
+article ul{
+    list-style: none;
+}
+article li{
+    padding-bottom: 4%;
+}
+
+.github i{
+    font-size: 40px;
+    padding-right: 15px;
+}
+.email i{
+    font-size: 35px;
+    padding-right: 15px;
+}
+.tel i{
+    font-size: 35px;
+    padding-right: 15px;
 }
