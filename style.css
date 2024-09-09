@@ -58,7 +58,6 @@ nav {
 nav span{
     padding-bottom: 10%;
 }
-<<<<<<< HEAD
 .profile-click {
     /* text-align: center; */
     padding-right: 17%;
@@ -68,10 +67,6 @@ nav span{
     padding: 20%;
     border: 2px solid black;
     border-radius: 30%;
-=======
-.profile-click, .certificates-click{
-    padding-right: 15%;
->>>>>>> 90c7bbe4fb9dc2d4fab1a6374d9e80fa872c1e3d
 }
 .competitions-click{
     /* text-align: center; */
