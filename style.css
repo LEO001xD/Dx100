@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: whitesmoke;
     font-family: "Noto Sans Thai Looped", sans-serif;
@@ -12,50 +14,53 @@ body{
     background-size: cover;
 }
 #card{
-    z-index: 1;
     display: block;
-    background-image: linear-gradient(to right, white , rgba(170, 173, 179, 0.877));
-    margin: 5% 10%;
     border-radius: 70px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 50px 0 rgba(0, 0, 0, 0.616);
+    margin: 5% 10%;
+    overflow: hidden; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 50px 0 rgba(0, 0, 0, 0.616);                 
 }
-header {
+#page1{
+    background-image: linear-gradient(to right, white , rgba(170, 173, 179, 0.877));
+    
+}
+#header1{
     font-size: 150%;    
     padding: 3% 5%;
     font-weight: 500 ;
     /* margin-bottom: 2%; */
 }
-#header-list {
+#header1-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#header-list ul {
+#header1-list ul {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
 }
-#header-list .start li {
+#header1-list .start li {
     padding-right: 20px;
 }
-#header-list .end li {
+#header1-list .end li {
     padding-right: 20px;
 }
-#container{
+#container-navbar{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     font-size: 120%;
     /* gap: 10px; */
 }
-nav {
+#nav1 {
     display: flex;
     flex-direction: column;
     align-items: end;
     padding-top: 7%;
     font-weight: 500    ;
 }
-nav span{
+#nav1 span{
     padding-bottom: 10%;
 }
 .profile-click {
@@ -98,16 +103,16 @@ nav span{
     border: 2px solid black;
     border-radius: 30%;
 }
-main{
+#main1{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.profile {
+.profile1 {
     position: relative;
     /* display: inline-block;  */
 }
-.profile .dot {
+.profile1 .dot {
     height: 50vh;
     width: 50vh;
     background-color: rgb(46, 46, 46);
@@ -120,27 +125,29 @@ main{
     z-index: 1; 
 }
 
-.profile img {
+.profile1 img {
     position: relative;
     z-index: 2; 
     width: auto;
     max-height: 65vh; 
     display: block;
 }
-article{
+#article1{
     padding: 0% 5% 5% 3%;
 }
-article h1{
+#article1 h1{
     font-weight: 800;
-    font-size: 200%
+    font-size: 200%;
 }
-article ul{
+#article1 ul{
     list-style: none;
 }
-article li{
+#article1 li{
     padding-bottom: 4%;
 }
-
+#article1 p{
+    padding-right: 4%;
+}
 .github i{
     font-size: 40px;
     padding-right: 15px;
@@ -153,3 +160,48 @@ article li{
     font-size: 35px;
     padding-right: 15px;
 }
+/*  */
+#page2-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    padding: 1rem 2rem;
+}
+
+#page2 {
+    background-image: linear-gradient(to right, white , rgba(170, 173, 179, 0.877));
+    margin-top: 0;
+    padding: 20px; 
+    height: auto; 
+    width: 100%;
+    color: black;
+}
+#profile2{
+    text-align: center;
+    padding-left: 5%;
+}
+#profile2 h1{
+    font-weight: 800;
+    font-size: 250%;
+}
+#profile2 h2{
+    border: 2px solid black;
+}
+#profile2 img{
+    max-width: 70%;
+    border-radius: 20px;
+    border: 3px double black;
+
+}
+#aboutme,#skills,#education {
+    border: 2px solid black;
+    padding: 20px;
+}
+#aboutme h2, #skills h2, #education h2{
+    background-color: rgb(175, 172, 172);
+    padding-left: 20px;
+}
+#skills{
+    max-height: 35vh;
+}
+    
