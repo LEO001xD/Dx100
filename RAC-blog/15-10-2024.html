@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15/10/2024 - RAC Blog</title>
+
+    <style>
+        /* Background and Font for Dark Mode */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #121212; /* พื้นหลังสีเข้ม */
+            color: #e0e0e0; /* ตัวอักษรสีอ่อน */
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        /* Header */
+        header {
+            background-color: #1e1e1e; /* พื้นหลัง Header สีเข้ม */
+            color: #76ff03; /* ตัวอักษรสีเขียวสด */
+            padding: 50px;
+            text-align: center;
+            border-radius: 0 0 30px 30px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+        }
+
+        /* Main Content */
+        main {
+            padding: 40px;
+            text-align: left;
+            max-width: 800px;
+            margin: auto;
+            background-color: #1e1e1e;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #76ff03; /* สีเขียวสำหรับหัวข้อ */
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Image Styling */
+        .images {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        .images img {
+            width: 48%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+        }
+
+        /* Back Button */
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #121212;
+            background-color: #76ff03;
+            border-radius: 25px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            margin-top: 10px;
+        }
+
+        .back-button:hover {
+            background-color: #64dd17;
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+            font-size: 0.9rem;
+            width: 100%;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .images {
+                flex-direction: column;
+            }
+
+            .images img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>15/10/2024</h1>
+    </header>
+
+    <main>
+        <h2>กิจกรรมในวันนี้</h2>
+        <p>
+            วันนี้เป็นวันแรกที่ได้เริ่มฝึกงานจริงโดยโจทย์ที่ผมเลือกมาก็คือ ตรวจสอบแป้งขนมปังหลังบ่มและผมก็ได้รู้ว่าผมต้องปั้นแป้งโดว์และบ่มขนมปังเอง
+            และตรวจสอบเองซึ่งทำให้ผมคิดหนักว่าจะปั้นแป้งกันยังไง ไม่นานผมกับเพื่อนจึงหาสูตรทำแป้งโดว์ หาข้อผิดพลาดที่จะเกิดขึ้นระหว่างการผลิต 
+            หลังจากพักเที่ยงพี่ปอนด์ก็พาพวกผมไปซื้อของมาทำแป้งโดว์ที่ร้านเบเกอรี่ เวลาประมาณบ่าย 2 พวกผมเริ่มทำแป้งโดว์ การทำเป็นไปอย่างยากลำบาก
+            เพราะนี่เป็นครั้งแรกของพวกเราทุกคน ทำให้ผลลัพธ์ออกมาไม่ดีอย่างที่คิด ในตอนเย็นพวกเราจึงดูวิธีทำการทำขนมปังว่าส่วนผสมอย่างไร นวดแป้งอย่างไร 
+            และดูเจปังสูตรดังเขย่าโลกก่อนนอน
+        </p>
+
+        <div class="images">
+            <img src="https://media.discordapp.net/attachments/1296869286488576000/1296870037512257669/20241015_142639.jpg?ex=6717d057&is=67167ed7&hm=1beedd2cbc594021948c0395b30094dc6a0f17d8ae67f2a4a9e5268bf9638a32&=&format=webp&width=333&height=593" alt="การเตรียมวัตถุดิบ">
+            <img src="https://media.discordapp.net/attachments/1296869286488576000/1296870038455975957/20241015_153943.jpg?ex=6717d057&is=67167ed7&hm=2ea3e8c50ab209d63a80bb4642d3a15b9d50868e9342ec00f9fc2450050e2d3b&=&format=webp&width=333&height=592" alt="การนวดแป้งโดว์">
+        </div>
+
+        <a href="index.html" class="back-button">กลับหน้าหลัก</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 RAC Blog. LEO.</p>
+    </footer>
+</body>
+</html>
