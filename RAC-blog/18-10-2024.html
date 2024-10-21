@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>18/10/2024 - RAC Blog</title>
+
+    <style>
+        /* Background and Font for Dark Mode */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #121212; /* พื้นหลังสีเข้ม */
+            color: #e0e0e0; /* ตัวอักษรสีอ่อน */
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        /* Header */
+        header {
+            background-color: #1e1e1e; /* พื้นหลัง Header สีเข้ม */
+            color: #76ff03; /* ตัวอักษรสีเขียวสด */
+            padding: 50px;
+            text-align: center;
+            border-radius: 0 0 30px 30px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+        }
+
+        /* Main Content */
+        main {
+            padding: 40px;
+            text-align: left;
+            max-width: 800px;
+            margin: auto;
+            background-color: #1e1e1e;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #76ff03; /* สีเขียวสำหรับหัวข้อ */
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Image Styling */
+        .images {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        .images img {
+            width: 48%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+        }
+
+        /* Back Button */
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #121212;
+            background-color: #76ff03;
+            border-radius: 25px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            margin-top: 10px;
+        }
+
+        .back-button:hover {
+            background-color: #64dd17;
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+            font-size: 0.9rem;
+            width: 100%;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .images {
+                flex-direction: column;
+            }
+
+            .images img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>18/10/2024</h1>
+    </header>
+
+    <main>
+        <h2>ความคืบหน้าในวันนี้</h2>
+        <p>
+            วันนี้ในช่วงเช้าพวกผมคิดวิธีที่จะสร้างพิมพ์ขนมปังซึ่งวิธีแรกที่คิดคือการใช้วิธี 3D printing แต่ว่าเมื่อนำไปลองปรากฎว่าในการปริ้นพิมพ์ขนมปังอย่างเร็วที่สุดคือ 3วัน 
+            ซึ่งไม่ทันแน่ๆ พวกผมจึงเปลี่ยนวิธีไปใช้ laser cutting แทน และในการ laser cutting นั้นพวกผมไม่เคยทำมาก่อนแต่ก็มีพี่สตาฟมาบอกว่าต้องทำไง 
+            และวิธีทำก็คือการวาด 2D เป็นจิ๊กซอว์มาต่อกัน เวลาไม่นานมากพวกผมก็ทำแบบเสร็จ เวลาประมาณบ่าย 2 พวกผมได้เข้าห้อง workshop ที่ชั้น 1 ของ FIBO  
+            ครั้งแรก เมื่อพวกผมได้ไปลองใช้เครื่อง laser cutting พี่สตาฟก็บอกวิธีใช้อย่างละเอียด แต่เมื่อถึงเวลาใช้จริงคอมเพื่อนผมก็มีปัญหา ทั้งแบตจะหมด 
+            ต้องโหลดไดรเวอร์ใหม่ เปิดไฟล์ที่ save ไว้ไม่ได้ เมื่อแก้ปัญหาทั้งหมดก็ผ่านไป 2ชม. เวลาผ่านไป 1 ชม.เครื่องทำงานเสร็จ จากนั้นจึงลองเอาชิ้นส่วนที่ laser 
+            มาต่อกัน และใช่มัน work
+
+        <div class="images">
+            <img src="https://cdn.discordapp.com/attachments/1296869286488576000/1296872280068063335/image.png?ex=6717d26e&is=671680ee&hm=a89a0a0c61789c7f526e2b80b5f2636c6df6c06b12039d9a3a0261f19e80e698&" alt="แม่พิมพ์ขนมปัง v.jigsaw" title="แม่พิมพ์ขนมปัง v.jigsaw   ">
+            <img src="https://cdn.discordapp.com/attachments/1296869286488576000/1296872711271874622/20241018_162259.jpg?ex=6717d2d5&is=67168155&hm=98efe8bc8dbbecfc2a8dbdfd0c2038a91755cabea3df6d244da0b2592444c765&" alt="ขณะ laser cutting" title="ขณะ laser cutting">
+        </div>
+
+        <a href="index.html" class="back-button">กลับหน้าหลัก</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 RAC Blog. LEO.</p>
+    </footer>
+</body>
+</html>
