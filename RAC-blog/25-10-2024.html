@@ -1,11 +1,137 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>COMING SOON...</h1>
-</body>
-</html>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="icon" href="../img/Alisa_Mikhailovna_Kujo.webp">
+            <title>25/10/2024 - RAC Blog</title>
+
+            <style>
+                /* Background and Font for Dark Mode */
+                body {
+                    font-family: 'Poppins', sans-serif;
+                    background-color: #121212; /* พื้นหลังสีเข้ม */
+                    color: #e0e0e0; /* ตัวอักษรสีอ่อน */
+                    margin: 0;
+                    padding: 0;
+                    min-height: 100vh;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+
+                /* Header */
+                header {
+                    background-color: #1e1e1e; /* พื้นหลัง Header สีเข้ม */
+                    color: #76ff03; /* ตัวอักษรสีเขียวสด */
+                    padding: 50px;
+                    text-align: center;
+                    border-radius: 0 0 30px 30px;
+                    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+                }
+
+                header h1 {
+                    font-size: 2.5rem;
+                    margin-bottom: 5px;
+                }
+
+                /* Main Content */
+                main {
+                    padding: 40px;
+                    text-align: left;
+                    max-width: 800px;
+                    margin: auto;
+                    background-color: #1e1e1e;
+                    border-radius: 15px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+                }
+
+                h2 {
+                    font-size: 1.8rem;
+                    margin-bottom: 15px;
+                    color: #76ff03; /* สีเขียวสำหรับหัวข้อ */
+                }
+
+                p {
+                    font-size: 1.1rem;
+                    line-height: 1.6;
+                    margin-bottom: 20px;
+                }
+
+                /* Image Styling */
+                .images {
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                    text-align: center;
+                }
+
+                .images img {
+                    width: 100%;
+                    height: auto;
+                    border-radius: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+                }
+
+                /* Back Button */
+                .back-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    text-decoration: none;
+                    color: #121212;
+                    background-color: #76ff03;
+                    border-radius: 25px;
+                    transition: background-color 0.3s ease, transform 0.2s ease;
+                    margin-top: 10px;
+                }
+
+                .back-button:hover {
+                    background-color: #64dd17;
+                    transform: scale(1.05);
+                }
+
+                /* Footer */
+                footer {
+                    text-align: center;
+                    padding: 15px;
+                    background-color: #1e1e1e;
+                    color: #e0e0e0;
+                    font-size: 0.9rem;
+                    width: 100%;
+                }
+
+                /* Responsive Design */
+                @media (max-width: 600px) {
+                    .images {
+                        flex-direction: column;
+                    }
+
+                    .images img {
+                        width: 100%;
+                    }
+                }
+            </style>
+        </head>
+        <body>
+            <header>
+                <h1>25/10/2024</h1>
+            </header>
+
+            <main>
+                <h2>ความคืบหน้าในวันนี้</h2>
+                <p>
+
+                วันนี้ในช่วงเช้าผมใช้เวลาไปกับการจัดสายไฟ ส่วนตอนบ่ายลองปรับค่าเซนเซอร์ให้เท่าๆกันแต่วันนี้ก็ยังปรับค่าไม่เสร็จ
+
+                <div class="images">
+                    <img src="https://cdn.discordapp.com/attachments/1296869286488576000/1300229709916803166/20241025_125251.jpg?ex=672014c7&is=671ec347&hm=9fede6ee319f525c0d28a68e6bd97837680690607b14dbc9bd5687741952a044&" alt="จัดสาย" title="จัดสาย">
+                    <!-- <img src="https://cdn.discordapp.com/attachments/1296869286488576000/1298687457281314907/20241022_120514.jpg?ex=671a7872&is=671926f2&hm=e1c6751c4e7554fe7a0762e394b5f8ab66e402b26b87c92fdfa2cc2f19bd10d1&" alt="free food" title="free food"> -->
+                </div>
+
+                <a href="index.html" class="back-button">กลับหน้าหลัก</a>
+            </main> 
+
+            <footer>
+                <p>&copy; 2024 RAC Blog. LEO.</p>
+            </footer>
+        </body>
+        </html>
