@@ -72,60 +72,61 @@ main{
 
 @media (max-width: 1024px) {
     main {
-        margin: 10% 5%; 
+        margin: 10% 5%; /* Further reduce margins on smaller screens */
     }
 }
 
 @media (max-width: 768px) {
-    main {
-        margin: 1rem;  
-        width: auto;   
-    }
-
     .container {
-        grid-template-columns: 1fr;  
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 1rem;
         padding: 1rem;
-        background-color: rgba(0, 0, 0, 0.93);  
-    }
-
-    .image {
-        width: 100%;  
     }
 
     .image img {
-        width: 150px;  
-        height: 150px;
-        margin: 0 auto;  
-        display: block;
+        width: 180px;
+        height: 180px;
     }
 
-    #pokemonNameDisplay,
-    #pokemonTypeDisplay {
-        text-align: center;  
+    #pokemonNameDisplay {
+        font-size: 1.5rem;
     }
 
     .base.stat {
-        width: 100%;  
-        padding: 1rem 0;  
-    }
-
-    #pokemonStats {
-        text-align: center;  
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        padding-top: 1rem;
     }
 }
 
-
 @media (max-width: 480px) {
-    header {
-        padding: 0.5rem;
+    header{
+        gap: 30px;
+    }
+    main {
+        width: 95%;
+        margin: 1rem auto;
     }
 
-    #searchBar {
-        width: 90%;
-        margin: 0 auto;
+    .image img {
+        width: 150px;
+        height: 150px;
     }
 
-    .container {
-        padding: 0.5rem;
+    #pokemonNameDisplay {
+        font-size: 1.3rem;
+    }
+
+    #pokemonTypeDisplay,
+    #pokemonStats p {
+        font-size: 1rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    #pokemonName {
+        padding: 8px 15px;
     }
 }
