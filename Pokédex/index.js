@@ -20,19 +20,21 @@ async function fetchData(){
         imgElement.src = pokemonSprite;
         imgElement.style.display = "block";
 
-        const stats = data.stats.map(stat => {
-            return `${stat.stat.name}: ${stat.base_stat}`;
-        });
-
-        const statsElement = document.getElementById("pokemonStats");
-        statsElement.innerHTML = stats.map(stat => `<p>${stat}</p>`).join("");
-
         const nameElement = document.getElementById("pokemonNameDisplay");
         nameElement.textContent = data.name;
 
         const types = data.types.map(type => type.type.name).join(", ");
         const typeElement = document.getElementById("pokemonTypeDisplay");
         typeElement.textContent = `POKEMON TYPE: ${types}`;
+
+        const baseStatElement = document.getElementById("baseStat");
+        baseStatElement.textContent = "Base Stat";
+
+        const stats = data.stats.map(stat => {
+            return `${stat.stat.name}: ${stat.base_stat}`;
+        });
+        const statsElement = document.getElementById("pokemonStats");
+        statsElement.innerHTML = stats.map(stat => `<p>${stat}</p>`).join("");
 
     }
     catch(error){
