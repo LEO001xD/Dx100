@@ -110,7 +110,7 @@ main{
     }
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     header {
         padding-left: 8%;
         padding-right: 8%;
@@ -135,9 +135,9 @@ main{
         padding-top: 1rem;
         width: 95%;
     }
-}
+} */
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
     body {
         font-size: 90%;
     }
