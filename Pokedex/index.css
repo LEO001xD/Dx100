@@ -94,12 +94,13 @@ main{
 
     #pokemonNameDisplay {
         font-size: 1.8rem;
-        margin-top: 10px;
+        /* margin-top: 10px; */
+        padding-top: 1rem;
     }
 
     .base.stat {
         padding-top: 1rem;
-        text-align: left;
+        text-align: center;
         margin: 0 auto;
         width: 90%;
     }
@@ -109,33 +110,6 @@ main{
         margin: 5px 0;
     }
 }
-
-/* @media (max-width: 768px) {
-    header {
-        padding-left: 8%;
-        padding-right: 8%;
-        gap: 10px;
-    }
-
-    .image img {
-        width: 75%;
-    }
-
-    #pokemonNameDisplay {
-        font-size: 1.5rem;
-    }
-
-    #pokemonTypeDisplay,
-    #pokemonStats p {
-        font-size: 1.1rem;
-    }
-
-    .base.stat {
-        border-top: 1px solid rgba(255, 255, 255, 0.2);
-        padding-top: 1rem;
-        width: 95%;
-    }
-} */
 
 @media (max-width: 768px) {
     body {
@@ -184,7 +158,8 @@ main{
     }
 
     #pokemonNameDisplay {
-        font-size: 1.2rem;
+        padding-top: 1rem;
+        font-size: 2rem;
         margin: 5px 0;
     }
 
@@ -193,12 +168,13 @@ main{
     }
 
     .base.stat {
-        margin: 0;
+        margin: 0 auto;
         padding: 1rem 0;
         text-align: center;
+        width: 100%;
     }
 
     #pokemonStats p {
-        font-size: 0.9rem;
+        font-size: 1.3rem;
     }
 }
