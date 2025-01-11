@@ -101,7 +101,9 @@ main{
 
 @media (max-width: 480px) {
     header{
-        gap: 30px;
+        padding-left: 5%;
+        padding-right: 5%;
+        gap: 15px;
     }
     main {
         width: 95%;
