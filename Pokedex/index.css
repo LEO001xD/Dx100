@@ -72,7 +72,7 @@ main{
 
 @media (max-width: 1024px) {
     main {
-        margin: 10% 5%; /* Further reduce margins on smaller screens */
+        margin: 10% 5%; 
     }
     header {
         padding-left: 15%;
