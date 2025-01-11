@@ -74,6 +74,10 @@ main{
     main {
         margin: 10% 5%; /* Further reduce margins on smaller screens */
     }
+    header {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -83,7 +87,10 @@ main{
         gap: 1rem;
         padding: 1rem;
     }
-
+    header {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
     .image img {
         width: 180px;
         height: 180px;
